@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
                                 Toast.makeText(MainActivity.this, "Register success", Toast.LENGTH_SHORT).show();
                                 Intent intent = new Intent (getApplicationContext(), HomeActivity.class);
                                 startActivity(intent);
+
                             }else{
                                 Toast.makeText(MainActivity.this, "Registration failed", Toast.LENGTH_SHORT).show();
                             }
@@ -75,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
                 startActivity(intent);
+
             }
         });
 

@@ -56,8 +56,7 @@ public class HomeActivity extends AppCompatActivity {
                 /*Switch case method to see what item is clicked*/
                switch (item.getItemId()) {
                     case R.id.nav_home:
-                        Log.i("MENU_DRAWER_TAG", "Home is clicked");
-                        drawerLayout.closeDrawer(GravityCompat.START);
+                        startActivity(new Intent(getApplicationContext(), HomeActivity.class));
                         break;
 
                     case R.id.nav_aboutus:
@@ -73,8 +72,8 @@ public class HomeActivity extends AppCompatActivity {
                         break;
 
                     case R.id.nav_logout:
-                        Log.i("MENU_DRAWER_TAG", "Log out is clicked");
-                        drawerLayout.closeDrawer(GravityCompat.START);
+                        startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                        finish();
                         break;
                 }
 
@@ -90,5 +89,8 @@ public class HomeActivity extends AppCompatActivity {
         fragmentTransaction.commit();
 
     }
+
+
+
 
 }

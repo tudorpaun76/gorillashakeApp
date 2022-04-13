@@ -9,6 +9,7 @@
             android:title="Home" />
 
         <item
+            android:clickable="true"
             android:id="@+id/nav_aboutus"
             android:icon="@drawable/ic_baseline_question_answer_24"
             android:title="About us" />
