@@ -4,19 +4,21 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.method.HideReturnsTransformationMethod;
+import android.text.method.PasswordTransformationMethod;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
 
     EditText username, password;
+    CheckBox showpass;
     Button btnlogin;
     DBHelper DB;
-
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +26,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         getSupportActionBar().hide();
 
+        showpass = findViewById(R.id.showpass);
 
         username = (EditText)  findViewById(R.id.username1);
         password = (EditText)  findViewById(R.id.password1);
@@ -53,5 +56,18 @@ public class LoginActivity extends AppCompatActivity {
                 }
             }
         });
+
+        showpass.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b){
+                if (b) {
+                    password.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+                } else {
+                    password.setTransformationMethod(PasswordTransformationMethod.getInstance());
+                }
+            }
+        });
+
     }
+
 }
