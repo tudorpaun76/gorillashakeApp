@@ -7,13 +7,23 @@
     android:padding = "10dp"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/picture1"
+        android:layout_marginTop="2dp"
+        />
+
+
+
     <EditText
         android:inputType="text"
         android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Username"
-        android:layout_marginTop="100dp"/>
+        android:layout_marginTop="140dp"
+        />
 
 
     <EditText
@@ -62,7 +72,7 @@
 
         android:backgroundTint="@color/white"
         />
-
+<!--
     <TextView
         android:fontFamily = "sans-serif-black"
         android:layout_width="match_parent"
@@ -72,7 +82,7 @@
         android:textSize="50dp"
         android:text="GorillaShake"
         android:textColor="@color/black" />
-
+-->
 
 
 

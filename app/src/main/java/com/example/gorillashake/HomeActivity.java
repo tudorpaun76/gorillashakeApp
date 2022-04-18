@@ -60,15 +60,15 @@ public class HomeActivity extends AppCompatActivity {
                         break;
 
                     case R.id.nav_aboutus:
-                        replaceFragment(new aboutus_frag());
+                        startActivity(new Intent(getApplicationContext(), aboutactivity.class));
                         break;
 
                     case R.id.nav_settings:
-                        replaceFragment(new settings_frag());
+                        startActivity(new Intent(getApplicationContext(), SettingsActivity.class));
                         break;
 
                     case R.id.nav_share:
-                        replaceFragment(new share_frag());
+                        startActivity(new Intent(getApplicationContext(), ShareActivity.class));
                         break;
 
                     case R.id.nav_logout:
@@ -81,16 +81,5 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
     }
-
-    private void replaceFragment(Fragment fragment){
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.replace(R.id.framelayout,fragment);
-        fragmentTransaction.commit();
-
-    }
-
-
-
 
 }

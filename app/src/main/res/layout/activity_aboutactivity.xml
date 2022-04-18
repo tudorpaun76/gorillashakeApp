@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".aboutus_frag">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="About us"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="60dp"
+        />
+<!--
+    <ImageView
+        android:id="@+id/tudor"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/t"
+        />
+
+    <ImageView
+        android:id="@+id/corey"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/c"
+        />
+
+    <ImageView
+        android:id="@+id/sean"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/s"
+        />
+-->
+    <Button
+        android:id="@+id/RETURNABOUT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:text="suck my ass"
+        android:textColor="@color/teal_200"/>
+
+</RelativeLayout>

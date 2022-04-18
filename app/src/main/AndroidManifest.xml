@@ -10,13 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Gorillashake">
         <activity
-            android:name="com.example.gorillashake.HomeActivity"
+            android:name=".ShareActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.gorillashake.LoginActivity"
+            android:name=".SettingsActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.gorillashake.MainActivity"
+            android:name=".aboutactivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
