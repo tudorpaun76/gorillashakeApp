@@ -8,20 +8,27 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toolbar;
 
 import com.google.android.material.navigation.NavigationView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class HomeActivity extends AppCompatActivity {
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     Toolbar toolbar;
     ActionBarDrawerToggle actionBarDrawerToggle;
+
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
@@ -54,7 +61,7 @@ public class HomeActivity extends AppCompatActivity {
                 item.setChecked(true);
                 Intent intent = null;
                 /*Switch case method to see what item is clicked*/
-               switch (item.getItemId()) {
+              switch (item.getItemId()) {
                     case R.id.nav_home:
                         startActivity(new Intent(getApplicationContext(), HomeActivity.class));
                         break;
@@ -83,3 +90,6 @@ public class HomeActivity extends AppCompatActivity {
     }
 
 }
+
+
+
