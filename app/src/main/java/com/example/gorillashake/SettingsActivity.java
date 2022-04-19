@@ -63,7 +63,7 @@ public class SettingsActivity extends AppCompatActivity {
                 if(checked)
                     settings.setCustomTheme(UserSettings.DARK_THEME);
                 else
-                    settings.setCustomTheme(UserSettings.DARK_THEME);
+                    settings.setCustomTheme(UserSettings.LIGHT_THEME);
 
                 SharedPreferences.Editor editor =getSharedPreferences(UserSettings.PREFERENCES, MODE_PRIVATE).edit();
                 editor.putString(UserSettings.CUSTOM_THEME,settings.getCustomTheme());
