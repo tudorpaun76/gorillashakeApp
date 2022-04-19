@@ -39,6 +39,7 @@
         android:layout_below="@+id/sharetext"
         android:layout_toRightOf="@id/twiicon"
         android:padding="20dp"
+        app:srcCompat="@drawable/fb"
         />
 
     <ImageView
@@ -49,6 +50,8 @@
         android:layout_below="@+id/sharetext"
         android:layout_centerHorizontal="true"
         android:padding="20dp"
+        app:srcCompat="@drawable/twitter"
+
         />
 
     <ImageView
@@ -59,6 +62,7 @@
         android:layout_below="@+id/sharetext"
         android:layout_toLeftOf="@id/twiicon"
         android:padding="20dp"
+        app:srcCompat="@drawable/insta"
         />
 
 
