@@ -13,19 +13,22 @@
         <entry key="..\:/Users/tudor/AndroidStudioProjects/gorillashake/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1095" />
         <entry key="..\:/Users/tudor/AndroidStudioProjects/gorillashake/app/src/main/res/drawable/ic_logo.xml" value="0.177" />
         <entry key="..\:/Users/tudor/AndroidStudioProjects/gorillashake/app/src/main/res/layout/activity_aboutactivity.xml" value="0.3151041666666667" />
-        <entry key="..\:/Users/tudor/AndroidStudioProjects/gorillashake/app/src/main/res/layout/activity_home.xml" value="0.1524822695035461" />
+        <entry key="..\:/Users/tudor/AndroidStudioProjects/gorillashake/app/src/main/res/layout/activity_home.xml" value="0.21637426900584794" />
         <entry key="..\:/Users/tudor/AndroidStudioProjects/gorillashake/app/src/main/res/layout/activity_info.xml" value="0.1" />
         <entry key="..\:/Users/tudor/AndroidStudioProjects/gorillashake/app/src/main/res/layout/activity_login.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/tudor/AndroidStudioProjects/gorillashake/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/tudor/AndroidStudioProjects/gorillashake/app/src/main/res/layout/activity_settings.xml" value="0.3151041666666667" />
-        <entry key="..\:/Users/tudor/AndroidStudioProjects/gorillashake/app/src/main/res/layout/activity_share.xml" value="0.3151041666666667" />
+        <entry key="..\:/Users/tudor/AndroidStudioProjects/gorillashake/app/src/main/res/layout/activity_share.xml" value="0.1" />
+        <entry key="..\:/Users/tudor/AndroidStudioProjects/gorillashake/app/src/main/res/layout/activity_shop.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/tudor/AndroidStudioProjects/gorillashake/app/src/main/res/layout/activity_summary.xml" value="0.1" />
         <entry key="..\:/Users/tudor/AndroidStudioProjects/gorillashake/app/src/main/res/layout/cartlist.xml" value="0.1540020263424519" />
         <entry key="..\:/Users/tudor/AndroidStudioProjects/gorillashake/app/src/main/res/layout/fragment_aboutus_frag.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/tudor/AndroidStudioProjects/gorillashake/app/src/main/res/layout/fragment_settings_frag.xml" value="0.1524822695035461" />
         <entry key="..\:/Users/tudor/AndroidStudioProjects/gorillashake/app/src/main/res/layout/fragment_share_frag.xml" value="0.1524822695035461" />
+        <entry key="..\:/Users/tudor/AndroidStudioProjects/gorillashake/app/src/main/res/layout/gorilla.xml" value="0.5" />
         <entry key="..\:/Users/tudor/AndroidStudioProjects/gorillashake/app/src/main/res/layout/header_menu.xml" value="0.1" />
         <entry key="..\:/Users/tudor/AndroidStudioProjects/gorillashake/app/src/main/res/layout/listitem.xml" value="0.1540020263424519" />
+        <entry key="..\:/Users/tudor/AndroidStudioProjects/gorillashake/app/src/main/res/menu/gorilla.xml" value="0.225" />
         <entry key="..\:/Users/tudor/AndroidStudioProjects/gorillashake/app/src/main/res/menu/main_menu.xml" value="0.1" />
       </map>
     </option>

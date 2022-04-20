@@ -12,10 +12,17 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.CheckBox;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
+import android.widget.TextView;
 import android.widget.Toolbar;
 
 import com.google.android.material.navigation.NavigationView;
@@ -29,6 +36,10 @@ public class HomeActivity extends AppCompatActivity {
     Toolbar toolbar;
     ActionBarDrawerToggle actionBarDrawerToggle;
 
+    ImageView shop;
+
+
+
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
@@ -41,13 +52,14 @@ public class HomeActivity extends AppCompatActivity {
     }
 
 
- @Override
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-
         /*User interaction*/
+
+        shop = findViewById(R.id.basket);
 
         drawerLayout = findViewById(R.id.drawer_layout);
         navigationView = findViewById(R.id.navigationView);
@@ -61,7 +73,7 @@ public class HomeActivity extends AppCompatActivity {
                 item.setChecked(true);
                 Intent intent = null;
                 /*Switch case method to see what item is clicked*/
-              switch (item.getItemId()) {
+                switch (item.getItemId()) {
                     case R.id.nav_home:
                         startActivity(new Intent(getApplicationContext(), HomeActivity.class));
                         break;
@@ -86,10 +98,28 @@ public class HomeActivity extends AppCompatActivity {
 
                 return true;
             }
+
+
+
         });
+
+
+        shop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), ShopActivity.class));
+
+            }
+        });
+
     }
 
 }
+
+
+
+
+
 
 
 
