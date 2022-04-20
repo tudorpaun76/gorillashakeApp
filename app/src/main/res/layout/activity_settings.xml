@@ -46,6 +46,52 @@
         app:layout_constraintRight_toRightOf="parent"
         tools:layout_editor_absoluteX="181dp" />
 
+    <EditText
+        android:id="@+id/nameEt"
+        android:hint="Enter Name"
+        android:inputType="textCapSentences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/themeSwitch" />
+
+    <EditText
+        android:id="@+id/ageEt"
+        android:hint="Enter Age"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/nameEt" />
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="Save"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/ageEt"
+        tools:layout_editor_absoluteX="161dp"
+         />
+
+    <Button
+        android:id="@+id/showBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Info"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/saveBtn"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteX="146dp" />
+
+    <TextView
+        android:id="@+id/infoTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/showBtn" />
+
     <Button
         android:id="@+id/RETURNSETTINGS"
         android:layout_width="wrap_content"
